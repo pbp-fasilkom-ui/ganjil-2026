@@ -37,8 +37,8 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={"PBP Ganjil 2024/2025"}
-      description="Situs Web Pemrograman Berbasis Platform Ganjil 2024/2025">
+      title={"PBP Ganjil 2025/2026"}
+      description="Situs Web Pemrograman Berbasis Platform Ganjil 2025/2026">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
