@@ -318,7 +318,7 @@ Currently, you have three repositories:
 This step allows you to work with repositories in various places easily.
 :::
 
-### Step 6: Branching on a Repository
+### Step 4: Branching on a Repository
 
 At this stage you will learn about using branches in Git. Using branches allows you to develop features or fix bugs in a separate environment before merging them back to the main branch.
 
@@ -811,50 +811,7 @@ Don't forget to make sure that `SCHEMA=tutorial` and `PRODUCTION=True`, then cli
 
 10. On the PWS site sidebar, click the project you created. You can see your current deployment status. If the status is `Building`, it means your project is still in the deployment process. If the status is `Running`, then your project can already be accessed on the deployment URL. You can press the `View Project` button found on your project page.
 
-11. **IMPORTANT: "Not Found" Page is Normal!** 
-    After successful deployment and you access the project URL, you will see a "Not Found" page or "The requested resource was not found on this server." like the image below:
-    
-    ![image](/img/t0-12.png)
-
-    
-    **Don't worry, this is NOT an error!** This page appears because:
-    - Django in production mode (`PRODUCTION=True`) does not display the debug page you usually see in development
-    - You haven't configured URL routing for the main page (/) in `urls.py` yet
-    - Your project has been successfully deployed and is running well
-    
-    **To prove deployment was successful**, let's create a simple page:
-    
-    1. Open the `urls.py` file in your project's main folder (parallel to `settings.py`)
-    2. Change the `urls.py` code to the following:
-    
-    ```python
-    from django.contrib import admin
-    from django.urls import path
-    from django.http import HttpResponse
-
-    def show_main(request):
-        return HttpResponse('<div><h1>Hello World!</h1><p>Deployment successful!</p></div>')
-
-    urlpatterns = [
-        path('', show_main, name='show_main'),
-        path('admin/', admin.site.urls),
-    ]
-    ```
-
-    3. Perform `git add .`, `git commit -m "Add simple main page"`, and `git push pws master` (push to pws)
-    4. Wait for the deployment process to complete (latest build status becomes "Successful" and project status becomes "Running")
-    ![image](/img/t0-13.png)
-    5. Refresh your web page - now "Hello World! Deployment successful!" will appear
-    ![image](/img/t0-14.png)
-
-    
-    :::info
-    **Why is it different from development?**
-    - In development (`DEBUG=True`): Django displays an informative debug page
-    - In production (`DEBUG=False`): Django displays a standard error page for security
-    :::
-
-12. If in the future there are changes to your Django project that you want to push to PWS, you only need to run the command:
+11. If in the future there are changes to your Django project that you want to push to PWS, you only need to run the command:
 	
     ```bash
     git push pws master
