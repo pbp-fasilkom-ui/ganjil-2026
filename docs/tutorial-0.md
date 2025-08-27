@@ -792,13 +792,6 @@ Jangan lupa pastikan bahwa ```SCHEMA=tutorial``` dan ```PRODUCTION=True```, sela
 
 
 
-7. Kemudian, pada sidebar, klik proyek yang kamu buat. Pilih tab Environment. 
-![image](/img/t0-9.png)
-    Pada tab tersebut, klik Raw Editor dan copy paste isi file dari **.env.prod** yang sebelumnya kamu buat.
-![image](/img/t0-10.png)
-Jangan lupa pastikan bahwa ```SCHEMA=tutorial``` dan ```PRODUCTION=True```, selanjutnya klik Update All Variables. Selanjutnya pastikan bahwa environment variable di proyek PWS kamu sudah tersimpan dengan baik.
-![image](/img/t0-11.png)
-
 7. Pada `settings.py` di proyek Django yang sudah kamu buat tadi, tambahkan URL *deployment* PWS pada `ALLOWED_HOSTS`.
 	:::info
 	URL *deployment* PWS memiliki format `<username-sso>-<nama proyek>.pbp.cs.ui.ac.id`. Apabila pada username SSO kamu terdapat karakter titik (.), gantilah karakter tersebut menjadi *hyphen* (-). Sebagai contoh, apabila username SSO kamu adalah `pak.bepe25` dan nama proyek kamu adalah `footballnews`, URL *deployment* PWS kamu adalah `pak-bepe25-footballnews.pbp.cs.ui.ac.id`.
