@@ -518,14 +518,11 @@ Notes:
    
    In the context of deployment, ALLOWED_HOSTS functions as a list of hosts allowed to access the web application. By setting the above values, you allow access from local hosts, meaning it can only be accessed from your network only. However, if you deploy the application to a server, make sure you add the host from that server to ALLOWED_HOSTS.
 
-6. Change the DEBUG configuration in settings.py. Find the DEBUG section and replace with:
+6. Add the `PRODUCTION` configuration right above the `DEBUG` code in `settings.py`.
    
     ```python
-    # Production mode check
-    PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
-    # DEBUG automatically False if PRODUCTION=True
-    DEBUG = not PRODUCTION
-    ```
+   PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
+   ```
 
 7. Change the database configuration in settings.py. Find the DATABASES section and replace with:
    
