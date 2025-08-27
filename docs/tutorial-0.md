@@ -783,7 +783,7 @@ Notes :
     ![image](/img/t0-5.png)
 
 
-7. Kemudian, pada sidebar, klik proyek yang kamu buat. Pilih tab Environment. 
+7. Kemudian, pada sidebar, klik proyek yang kamu buat. Pilih tab Environs. 
 ![image](/img/t0-6.png)
     Pada tab tersebut, klik Raw Editor dan copy paste isi file dari **.env.prod** yang sebelumnya kamu buat.
 ![image](/img/t0-7.png)
