@@ -440,7 +440,7 @@ Setelah membuat `template` dan mengonfigurasikannya pada `view`, kita akan belaj
 
 *Routing* adalah proses memetakan suatu URL (endpoint) ke sebuah view function atau class-based view yang sudah kita definisikan. Saat client mengakses URL tertentu, Django akan mencocokkan URL tersebut dengan pola yang ada di file `urls.py`. Jika ada kecocokan, maka Django akan menjalankan view yang terkait dan mengembalikan response kepada client.
 
-::: info
+:::info
 Tambahan: [class-based view](https://docs.djangoproject.com/en/5.2/topics/class-based-views/intro/) adalah cara lain untuk membuat view namun menggunakan class guna mengorganisasi kode lebih baik. 
 :::
 
@@ -497,7 +497,7 @@ urlpatterns = [
 - Fungsi `include` digunakan untuk mengimpor pola rute URL dari aplikasi lain (dalam hal ini dari aplikasi `main`) ke dalam berkas `urls.py` level proyek.
 - Path URL '' akan diarahkan ke rute yang didefinisikan dalam berkas urls.py aplikasi main. Path URL dibiarkan berupa string kosong agar halaman aplikasi main dapat diakses secara langsung.
 
-::: info
+:::info
 Sebagai bayangan, apabila kamu menggunakan `path('aplikasi_main/', ...)` pada contoh di atas, maka kamu perlu mengakses halaman http://localhost:8000/aplikasi_main/ untuk mengakses halaman aplikasi main. Karena path yang ditentukan adalah '', maka kamu dapat mengakses aplikasi main melalui URL http://localhost:8000/ saja.
 :::
 
@@ -545,7 +545,7 @@ Dengan langkah-langkah di atas, kamu telah berhasil mengimplementasikan tampilan
 from django.test import TestCase, Client
 from .models import News
 
-class mainTest(TestCase):
+class MainTest(TestCase):
     def test_main_url_is_exist(self):
         response = Client().get('')
         self.assertEqual(response.status_code, 200)

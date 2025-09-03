@@ -447,7 +447,7 @@ After creating a template and configuring it in our view, we will now learn abou
 
 Routing is the process of mapping a URL (endpoint) to a view function or class-based view that we've defined. When a client accesses a URL, Django will attempt to match this URL with patterns defined in the `urls.py` file. If it finds a match, Django will execute the corresponding view and return a response to the client.
 
-::: info
+:::info
 Note: A [class-based view](https://docs.djangoproject.com/en/5.2/topics/class-based-views/intro/) is an alternative method you can use to create views; instead of using functions, it uses classes to help better organize your code.
 :::
 
@@ -504,7 +504,7 @@ urlpatterns = [
 - The `include` function is used to import URL route patterns from other applications (in this case, the `main` application) into the project-level `urls.py` file.
 - The URL path `''` will be forwarded to the routes defined in `urls.py` inside the `main` application. The path URL is deliberately set to the empty string so the main page can be accessed directly.
 
-::: info
+:::info
 As an example, if the URL path was instead configured as `path('main_application/', ...)` on the example above, then you would need to access http://localhost:8000/main_application/ to view the main page. Setting the URL path to `''` allows you to access the main page directly with http://localhost:8000/.
 :::
 
@@ -551,7 +551,7 @@ With the above steps, you have successfully implemented a basic view in the `mai
 from django.test import TestCase, Client
 from .models import News
 
-class mainTest(TestCase):
+class MainTest(TestCase):
     def test_main_url_is_exist(self):
         response = Client().get('')
         self.assertEqual(response.status_code, 200)

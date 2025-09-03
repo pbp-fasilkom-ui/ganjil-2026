@@ -67,6 +67,7 @@ The checklist for this assignment is as follows:
 :::info
 **Tips**: You may include links or upload images in your `README.md` file for the diagram-related question.
 :::
+
 :::danger
 Note that you must work on this assignment using a **different repository** from the tutorial. Submissions using an incorrect repository will not be graded.
 :::

@@ -67,7 +67,8 @@ Beberapa contoh ide aplikasi yang dapat kamu buat:
 :::info
 **Tips** : Kalian dapat melampirkan hanya berupa link ataupun upload image ke file `README.md` kalian untuk soal tentang bagan / gambar. 
 :::
-::: danger
+
+:::danger
 Perhatikan bahwa kamu harus mengerjakan tugas ini menggunakan repositori yang **berbeda** dengan tutorial. Repositori yang tidak sesuai dengan ketentuan maka tidak akan dinilai. 
 :::
 
