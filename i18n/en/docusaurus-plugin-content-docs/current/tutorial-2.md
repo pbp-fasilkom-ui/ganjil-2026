@@ -229,7 +229,7 @@ Up to this point, no data has ever been added and displayed in the application. 
     urlpatterns = [
         path('', show_main, name='show_main')
         path('create-news/', create_news, name='create_news'),
-        path('news/<str:id>', show_news, name='show_news'),
+        path('news/<str:id>/', show_news, name='show_news'),
     ]
 
     ```
@@ -370,7 +370,7 @@ Up to this point, no data has ever been added and displayed in the application. 
 
     ```python
     def show_xml(request):
-        data = News.objects.all()
+        news_list = News.objects.all()
         xml_data = serializers.serialize("xml", news_list)
         return HttpResponse(xml_data, content_type="application/xml")
     ```
@@ -399,7 +399,7 @@ Up to this point, no data has ever been added and displayed in the application. 
 
     ```python
     def show_json(request):
-        data = News.objects.all()
+        news_list = News.objects.all()
     ```
     
 2. Add a return statement using `HttpResponse` that contains the query results serialized as JSON, along with the parameter `content_type="application/JSON"`.
