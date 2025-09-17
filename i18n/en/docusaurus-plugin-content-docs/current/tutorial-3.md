@@ -661,12 +661,14 @@ This way, we can test the **entire application flow** from start to finish. Fron
 1. Add `selenium` to `requirements.txt`. Then run `pip install -r requirements.txt`.
 2. Open `tests.py` in the `main` directory and add the following imports:
     ```python
+    from django.test import TestCase, Client
+    from .models import News
+    from django.test import LiveServerTestCase
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
     from selenium.webdriver.support.ui import Select
-    from django.contrib.auth.models import User
     ```
 
 3. Next, create the `FootballNewsFunctionalTest` test class as follows after the `MainTest` code block:
