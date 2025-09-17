@@ -894,7 +894,8 @@ Setelah kamu menyelesaikan seluruh tutorial di atas, harapannya Kamu sekarang le
 
       
 2. Pada akhir tutorial ini, struktur pada lokalmu terlihat seperti ini.
-![Struktur akhir](/img/t3-12.png)
+
+    ![Struktur akhir](/img/t3-12.png)
 
    
 

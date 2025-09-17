@@ -880,7 +880,8 @@ After completing the entire tutorial above, hopefully you now better understand 
    ![image](/img/t3-11.png)
 
 2. At the end of this tutorial, the local structure looks like this.
-![Final structure](/img/t3-12.png)
+
+    ![Final structure](/img/t3-12.png)
 
 3. Before taking this step, **make sure the local directory structure is correct**. Then, do `add`, `commit` and `push` to update the GitHub repository.
 
