@@ -525,7 +525,6 @@ Untuk melakukan hal tersebut, ikuti langkah-langkah berikut:
         }
 
         return render(request, "create_news.html", context)
-    ...
     ```
 
     **Penjelasan Kode:**
