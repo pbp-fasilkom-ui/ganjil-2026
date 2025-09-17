@@ -428,7 +428,7 @@ Setelah menambahkan pembatasan akses halaman tersebut, jalankan proyek Django de
         'npm' : '240123456',
         'name': 'Haru Urara',
         'class': 'PBP A',
-        'news_list': news_list
+        'news_list': news_list,
         'last_login': request.COOKIES.get('last_login', 'Never')
     }
     ```
