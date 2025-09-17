@@ -677,6 +677,7 @@ Dengan demikian, kita dapat menguji **keseluruhan alur aplikasi** dari awal hing
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
     from selenium.webdriver.support.ui import Select
+    from django.contrib.auth.models import User
     ```
 
 3. Selanjutnya buat kelas test `FootballNewsFunctionalTest` sebagai berikut setelah blok kode`MainTest`:
