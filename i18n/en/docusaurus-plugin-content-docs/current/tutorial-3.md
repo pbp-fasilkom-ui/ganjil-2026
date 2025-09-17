@@ -518,7 +518,6 @@ To do this, follow these steps:
         }
 
         return render(request, "create_news.html", context)
-    ...
     ```
 
     **Code Explanation:**
