@@ -669,12 +669,14 @@ Dengan demikian, kita dapat menguji **keseluruhan alur aplikasi** dari awal hing
 1. Tambahkan `selenium` ke `requirements.txt`. Selanjutnya jalankan `pip install -r requirements.txt`.
 2. Buka `tests.py` di direktori `main` dan tambahkan import sebagai berikut:
     ```python
+    from django.test import TestCase, Client
+    from .models import News
+    from django.test import LiveServerTestCase
     from selenium import webdriver
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
     from selenium.webdriver.support.ui import Select
-    from django.contrib.auth.models import User
     ```
 
 3. Selanjutnya buat kelas test `FootballNewsFunctionalTest` sebagai berikut setelah blok kode`MainTest`:
