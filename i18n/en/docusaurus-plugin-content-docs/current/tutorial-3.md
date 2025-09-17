@@ -669,6 +669,7 @@ This way, we can test the **entire application flow** from start to finish. Fron
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
     from selenium.webdriver.support.ui import Select
+    from django.contrib.auth.models import User
     ```
 
 3. Next, create the `FootballNewsFunctionalTest` test class as follows after the `MainTest` code block:
