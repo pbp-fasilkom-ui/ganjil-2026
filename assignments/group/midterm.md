@@ -32,16 +32,15 @@ Setiap kelompok disarankan untuk menggunakan **GitHub Organizations** untuk memp
     - Fansite olahraga tertentu  
     - Informasi tempat olahraga di kota/provinsi tertentu  
     - Portal berita/komunitas olahrag
-6. Setiap kelompok harus menentukan kategori utama produk yang menjadi _initial dataset_ aplikasi kelompok. Kategori utama produk harus berisi minimal 100 jenis produk. 
-8. Setiap kelompok mengimplementasikan _initial dataset_ dalam bentuk *class Models* dan menyimpan data dari _initial dataset_ tersebut ke dalam *basis data* Django. Sumber data untuk _initial dataset_ boleh berasal dari mana saja, misalnya dari Kaggle dan Wikipedia.
+5. Setiap kelompok harus menentukan kategori utama produk yang menjadi _initial dataset_ aplikasi kelompok. Kategori utama produk harus berisi minimal 100 jenis produk. 
+6. Setiap kelompok mengimplementasikan _initial dataset_ dalam bentuk *class Models* dan menyimpan data dari _initial dataset_ tersebut ke dalam *basis data* Django. Sumber data untuk _initial dataset_ boleh berasal dari mana saja, misalnya dari Kaggle dan Wikipedia.
 :::info
 **Tips** : Jika dataset tidak tersedia di google maupun sumber manapun, kalian dapat melakukan **teknik scrapping** untuk keperluan dataset kalian.
 :::
-10. Setiap anggota kelompok mengerjakan modul yang berbeda. Modul ditentukan oleh kelompok yang disesuaikan dengan ide aplikasi yang sudah didiskusikan dalam kelompok.
-11. Tugas kelompok di-_deploy_ sebagai kesatuan aplikasi web. Setiap kelompok diharapkan menggunakan PWS sebagai PaaS untuk _deployment_ proyek TK, tetapi setiap kelompok juga diberi kebebasan jika ingin melakukan _deployment_ pada PaaS lain.
+7. Setiap anggota kelompok mengerjakan modul yang berbeda. Modul ditentukan oleh kelompok yang disesuaikan dengan ide aplikasi yang sudah didiskusikan dalam kelompok.
+8. Tugas kelompok di-_deploy_ sebagai kesatuan aplikasi web. Setiap kelompok diharapkan menggunakan PWS sebagai PaaS untuk _deployment_ proyek TK, tetapi setiap kelompok juga diberi kebebasan jika ingin melakukan _deployment_ pada PaaS lain.
 
-
-12. Dibagian `README.md` kalian **WAJIB** tuliskan :  
+9. Dibagian `README.md` kalian **WAJIB** tuliskan :  
     - Deskripsi website kalian,
     - Nama anggota kelompok + NPM,
     - Daftar modul + deskripsi modul,
