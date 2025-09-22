@@ -92,7 +92,7 @@ Jika kalian menerapkan figma untuk desain UI Website kalian, kalian akan mendapa
             </ul>
         </td>
         <td>
-            <b>Tenggat Waktu: Rabu, 8 Oktober 2024, pukul 23:55 WIB</b>
+            <b>Tenggat Waktu: Rabu, 8 Oktober 2025, pukul 23:55 WIB</b>
             <p><b>Kumpulkan ke SCELE: Tautan GitHub</b> dengan <em>code base</em> proyek Django yang sudah disiapkan di GitHub.</p>
         </td>
     </tr>
