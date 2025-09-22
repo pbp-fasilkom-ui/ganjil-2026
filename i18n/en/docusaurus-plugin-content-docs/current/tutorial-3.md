@@ -504,6 +504,7 @@ To do this, follow these steps:
     :::
 4. Open `views.py` again in the main subdirectory, and change the code snippet in the `create_news` function to the following:
     ```python
+    @login_required(login_url='/login')
     def create_news(request):
         form = NewsForm(request.POST or None)
 
