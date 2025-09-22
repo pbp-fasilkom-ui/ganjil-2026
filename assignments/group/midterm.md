@@ -31,7 +31,7 @@ Setiap kelompok disarankan untuk menggunakan **GitHub Organizations** untuk memp
     - Website toko peralatan olahraga  
     - Fansite olahraga tertentu  
     - Informasi tempat olahraga di kota/provinsi tertentu  
-    - Portal berita/komunitas olahrag
+    - Portal berita/komunitas olahraga
 5. Setiap kelompok harus menentukan kategori utama produk yang menjadi _initial dataset_ aplikasi kelompok. Kategori utama produk harus berisi minimal 100 jenis produk. 
 6. Setiap kelompok mengimplementasikan _initial dataset_ dalam bentuk *class Models* dan menyimpan data dari _initial dataset_ tersebut ke dalam *basis data* Django. Sumber data untuk _initial dataset_ boleh berasal dari mana saja, misalnya dari Kaggle dan Wikipedia.
 :::info
