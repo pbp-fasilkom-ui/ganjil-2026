@@ -21,11 +21,11 @@ Kalian akan diharuskan merubah semua (yang ada di checklist) untuk menggunakan A
 - [ ] Mengubah fitur - fitur tugas sebelumnya menggunakan AJAX
     - [ ] Fitur CRUD (Create Read Update Delete) product menggunakan AJAX (tidak boleh menggunakan dari context render kecuali untuk keperluan AJAX)
     - [ ] Mengubah Login dan Register menggunakan AJAX.
-- [ ] Update tampilan
+- [ ] Tampilan baru
     - [ ] Membuat tombol yang akan menampilkan modal untuk *create* dan *update* product dalam bentuk form.
     - [ ] Membuat modal konfirmasi saat pengguna ingin menghapus product
-    - [ ] Saat melakukan aksi dari modal, product akan di-*refresh* tanpa perlu melakukan *refresh* halaman.
-    - [ ] Membuat tombol *refresh* yang akan menampilkan list product terbaru tanpa perlu *refresh* halaman
+    - [ ] Saat melakukan aksi dari modal, product akan di-*refresh* tanpa perlu melakukan *reload* halaman (Refresh melalui browser).
+    - [ ] Membuat tombol *refresh* yang akan menampilkan list product terbaru tanpa perlu *reload* halaman (Refresh melalui  browser)
     - [ ] Membuat *Loading*, *Empty*, dan *Error* state melalui Javascript.
     - [ ] Menampilkan Toast saat *create*, *update*, atau *delete* product dan saat *login*, *logout*, dan *register* **(tidak boleh sama persis dengan tutorial)**.
 - [ ] Menjawab beberapa pertanyaan berikut pada README.md pada root folder (silakan modifikasi README.md yang telah kamu buat sebelumnya; tambahkan subjudul untuk setiap tugas).
