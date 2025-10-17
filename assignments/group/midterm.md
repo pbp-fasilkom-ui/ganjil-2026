@@ -112,7 +112,7 @@ Jika kalian menerapkan figma untuk desain UI Website kalian, kalian akan mendapa
             </ul>
         </td>
         <td>
-            <b>Tenggat Waktu: Jumat, 24 Oktober 2024, pukul 23.55 WIB</b>
+            <b>Tenggat Waktu: Jumat, 24 Oktober 2025, pukul 23.55 WIB</b>
             <p><b>Kriteria Submisi:</b> Seluruh modul yang dikerjakan oleh setiap anggota kelompok sudah muncul dan dapat diakses.</p>
         </td>
     </tr>
