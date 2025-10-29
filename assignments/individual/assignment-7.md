@@ -39,7 +39,6 @@ Pada tugas ini, kamu akan mengimplementasikan aplikasi yang telah kamu kembangka
   - [ ] Jelaskan perbedaan antara `StatelessWidget` dan `StatefulWidget`. Kapan kamu memilih salah satunya?
   - [ ] Apa itu `BuildContext` dan mengapa penting di Flutter? Bagaimana penggunaannya di metode `build`?
   - [ ] Jelaskan konsep "hot reload" di Flutter dan bagaimana bedanya dengan "hot restart".
-  - [ ] Jelaskan bagaimana kamu menambahkan navigasi untuk berpindah antar layar di aplikasi Flutter.
 - [ ] Melakukan `add`-`commit`-`push` ke suatu repositori baru di GitHub.
 
 ## Tenggat Waktu Pengerjaan

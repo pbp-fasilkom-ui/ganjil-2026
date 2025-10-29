@@ -37,7 +37,6 @@ In this assignment, you will implement the application you've created previously
   - [ ] Explain the difference between `StatelessWidget` and `StatefulWidget`. When would you choose one over the other?
   - [ ] What is `BuildContext` and why is it important in Flutter? How is it used in the `build` method?
   - [ ] Explain the concept of a “hot reload” in Flutter and how it differs from a “hot restart”.
-  - [ ] Explain how you implemented navigation to move between pages in a Flutter app.
 - [ ] Run `add`-`commit`-`push` to a new repository on GitHub.
 
 ## Submission Deadline
