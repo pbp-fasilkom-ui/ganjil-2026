@@ -409,7 +409,7 @@ Kamu juga bisa mengubah warna tema aplikasi sesuai yang kamu inginkan dengan men
 
     ```dart
     class MyHomePage extends StatelessWidget {
-        MyHomePage({super.key, required ColorScheme colorScheme}); //sudah ada pada code sebelumnya
+        MyHomePage({super.key}); //sudah ada pada code sebelumnya
 
         final String nama = "Lionel Messi" //nama
         final String npm = "2406275678" //npm

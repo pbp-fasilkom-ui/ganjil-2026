@@ -404,7 +404,7 @@ class MyHomePage extends StatelessWidget {
 
 ```dart
 class MyHomePage extends StatelessWidget {
-     MyHomePage({super.key, required ColorScheme colorScheme}); //sudah ada pada code sebelumnya
+     MyHomePage({super.key}); //sudah ada pada code sebelumnya
 
     final String nama = "Haru Urara" // Name
     final String npm = "2406275678" // NPM
