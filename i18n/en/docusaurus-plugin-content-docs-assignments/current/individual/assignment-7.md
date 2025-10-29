@@ -41,6 +41,6 @@ In this assignment, you will implement the application you've created previously
 
 ## Submission Deadline
 
-The deadline for Assignment 7 is **Wednesday, November 5th 2025, 9:00 PM**.
+The deadline for Assignment 7 is **Wednesday, November 5th 2025, 12:00 PM**.
 
 Please submit the repository link to the provided submission slot on SCELE.

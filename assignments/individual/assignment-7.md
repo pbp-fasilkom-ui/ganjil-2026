@@ -43,6 +43,6 @@ Pada tugas ini, kamu akan mengimplementasikan aplikasi yang telah kamu kembangka
 
 ## Tenggat Waktu Pengerjaan
 
-Tenggat waktu pengerjaan Tugas 7 adalah **5 November 2025, pukul 21.00**.
+Tenggat waktu pengerjaan Tugas 7 adalah **5 November 2025, pukul 12.00**.
 
 Harap mengumpulkan link repositori yang kamu gunakan ke dalam slot **submit** yang telah disediakan di SCELE.
