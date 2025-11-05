@@ -494,7 +494,7 @@ Sekarang, kita akan membuat sebuah form sederhana untuk memasukkan data barang p
                   }
                 },
                 child: const Text(
-                  "Simpan",
+                  "Save",
                   style: TextStyle(color: Colors.white),
                 ),
               ),
@@ -566,7 +566,7 @@ Jangan lupa kerjakan `TODO` yang masih ada **sebelum mengumpulkan tutorial** (tu
 2. Coba jalankan program kamu, gunakan form yang telah dibuat, dan lihat hasilnya.
 
 :::info
-Setelah instruksi di atas, seharusnya web-mu akan terlihat seperti ini
+Setelah instruksi di atas, seharusnya aplikasi-mu akan terlihat seperti ini
 
 ![main_view](/img/t7-1.png)
 :::

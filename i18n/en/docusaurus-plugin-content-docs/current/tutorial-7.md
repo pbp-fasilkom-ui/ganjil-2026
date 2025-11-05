@@ -565,7 +565,7 @@ Don’t forget to complete all remaining `TODO`s **before submitting the tutoria
 2. Try running your program, use the form you have created, and observe the result.
 
 :::info
-After following the instructions above, your webpage should look like this:
+After following the instructions above, your app should look like this:
 
 ![main_view](/img/t7-1.png)
 :::
