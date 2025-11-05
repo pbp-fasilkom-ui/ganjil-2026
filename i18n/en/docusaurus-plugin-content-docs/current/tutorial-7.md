@@ -479,33 +479,18 @@ Now, we will create a simple form to input news data into the application so tha
                 builder: (context) {
                   return AlertDialog(
                     title: const Text('News saved successfully!'),
-                    content: SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment:
-                            CrossAxisAlignment.start,
-                        children: [
-                          Text('Title: $_title'),
-                          Text('Content: $_content'),
-                          Text('Category: $_category'),
-                          Text('Thumbnail: $_thumbnail'),
-                          Text(
-                            'Featured: ${_isFeatured ? "Yes" : "No"}',
-                          ),
-                        ],
-                      ),
-                    ),
                     actions: [
                       TextButton(
                         child: const Text('OK'),
                         onPressed: () {
                           Navigator.pop(context);
+                          _formKey.currentState!.reset();
                         },
                       ),
                     ],
                   );
                 },
               );
-              _formKey.currentState!.reset();
             }
           },
           child: const Text(
@@ -540,14 +525,18 @@ Don’t forget to complete all remaining `TODO`s **before submitting the tutoria
                     context: context,
                     builder: (context) {
                       return AlertDialog(
-                        title: const Text('Produk berhasil tersimpan'),
+                        title: const Text('News saved successfully!'),
                         content: SingleChildScrollView(
                           child: Column(
                             crossAxisAlignment:
                                 CrossAxisAlignment.start,
                             children: [
                               Text('Judul: $_title'),
-                              // TODO: Display the other values here
+                              Text('Content: $_content'),
+                              Text('Category: $_category'),
+                              Text('Thumbnail: $_thumbnail'),
+                              Text(
+                                  'Featured: ${_isFeatured ? "Yes" : "No"}'),
                             ],
                           ),
                         ),
@@ -556,13 +545,13 @@ Don’t forget to complete all remaining `TODO`s **before submitting the tutoria
                             child: const Text('OK'),
                             onPressed: () {
                               Navigator.pop(context);
+                              _formKey.currentState!.reset();
                             },
                           ),
                         ],
                       );
                     },
                   );
-                _formKey.currentState!.reset();
                 }
               },
               child: const Text(

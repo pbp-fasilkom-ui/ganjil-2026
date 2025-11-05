@@ -479,32 +479,18 @@ Sekarang, kita akan membuat sebuah form sederhana untuk memasukkan data barang p
                       builder: (context) {
                         return AlertDialog(
                           title: const Text('Berita berhasil disimpan!'),
-                          content: SingleChildScrollView(
-                            child: Column(
-                              crossAxisAlignment:
-                                  CrossAxisAlignment.start,
-                              children: [
-                                Text('Judul: $_title'),
-                                Text('Isi: $_content'),
-                                Text('Kategori: $_category'),
-                                Text('Thumbnail: $_thumbnail'),
-                                Text(
-                                    'Unggulan: ${_isFeatured ? "Ya" : "Tidak"}'),
-                              ],
-                            ),
-                          ),
                           actions: [
                             TextButton(
                               child: const Text('OK'),
                               onPressed: () {
                                 Navigator.pop(context);
+                                _formKey.currentState!.reset();
                               },
                             ),
                           ],
                         );
                       },
                     );
-                    _formKey.currentState!.reset();
                   }
                 },
                 child: const Text(
@@ -559,13 +545,14 @@ Jangan lupa kerjakan `TODO` yang masih ada **sebelum mengumpulkan tutorial** (tu
                             child: const Text('OK'),
                             onPressed: () {
                               Navigator.pop(context);
+                              _formKey.currentState!.reset();
                             },
                           ),
                         ],
                       );
                     },
                   );
-                _formKey.currentState!.reset();
+               
                 }
               },
               child: const Text(
