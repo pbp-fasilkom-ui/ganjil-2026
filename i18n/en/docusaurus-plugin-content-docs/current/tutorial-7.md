@@ -602,7 +602,7 @@ Up to this point, we have successfully created a drawer that can navigate to oth
              content: Text("You pressed the ${item.name} button!")));
 
        // Navigate to the appropriate route (depending on the button type)
-       if (item.name == "Tambah Berita") {
+       if (item.name == "Add News") {
          // TODO: Use Navigator.push to navigate to a MaterialPageRoute that contains NewsFormPage.
        }
 

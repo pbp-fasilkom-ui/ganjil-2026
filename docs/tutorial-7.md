@@ -252,7 +252,7 @@ Sekarang, kita akan membuat sebuah form sederhana untuk memasukkan data barang p
       appBar: AppBar(
         title: const Center(
           child: Text(
-            'Form Tambah Berita',
+            'Add News Form',
           ),
         ),
         backgroundColor: Colors.indigo,
@@ -545,8 +545,12 @@ Jangan lupa kerjakan `TODO` yang masih ada **sebelum mengumpulkan tutorial** (tu
                             crossAxisAlignment:
                                 CrossAxisAlignment.start,
                             children: [
-                              Text('Judul: $_title'),
-                              // TODO: Munculkan value-value lainnya
+                               Text('Judul: $_title'),
+                                Text('Isi: $_content'),
+                                Text('Kategori: $_category'),
+                                Text('Thumbnail: $_thumbnail'),
+                                Text(
+                                    'Unggulan: ${_isFeatured ? "Ya" : "Tidak"}'),
                             ],
                           ),
                         ),
@@ -601,7 +605,7 @@ Sampai sini, kita sudah berhasil membuat suatu *drawer* yang dapat menjalankan f
               content: Text("Kamu telah menekan tombol ${item.name}!")));
 
         // Navigate ke route yang sesuai (tergantung jenis tombol)
-        if (item.name == "Tambah Berita") {
+        if (item.name == "Add News") {
           // TODO: Gunakan Navigator.push untuk melakukan navigasi ke MaterialPageRoute yang mencakup NewsFormPage.
         }
 
