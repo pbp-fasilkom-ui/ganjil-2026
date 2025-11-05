@@ -157,7 +157,6 @@ Untuk mempermudah navigasi di aplikasi Flutter kita, kita dapat menambahkan *dra
         */
       },
     ),
-    // TODO: Buat ListTile baru untuk ke halaman melihat news
     ...
     ```
 

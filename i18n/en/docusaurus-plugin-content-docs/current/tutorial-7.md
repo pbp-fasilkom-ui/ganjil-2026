@@ -158,8 +158,7 @@ To make navigation easier in our Flutter application, we can add a *drawer menu*
        once the page is created.
        */
      },
-   ),
-   // TODO: Create another ListTile for the news list page
+   )
    ...
    ```
 
