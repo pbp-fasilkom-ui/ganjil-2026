@@ -590,7 +590,7 @@ Don’t forget to complete all remaining `TODO`s **before submitting the tutoria
 
 Up to this point, we have successfully created a drawer that can navigate to other pages in the application, as well as a form page. In the previous tutorial, we also created three button widgets that can perform certain actions when pressed. Now, we will add navigation functionality to those buttons so that when pressed, the user will be shown a different page.
 
-1. In the `NewsItem` widget inside `menu.dart` that was created in the previous tutorial, we will modify the code inside the `onTap` attribute of `InkWell` so it can navigate to another route (add the code below the `ScaffoldMessenger` code that displays the snackbar).
+1. In the `ItemCard` widget inside `menu.dart` that was created in the previous tutorial, we will modify the code inside the `onTap` attribute of `InkWell` so it can navigate to another route (add the code below the `ScaffoldMessenger` code that displays the snackbar).
 
    ```dart
    ...
@@ -634,7 +634,7 @@ After creating the `newslist_form.dart` page, our project now has more pages. Th
 
 2. Create a new file named `news_card.dart` inside the `widgets` directory.
 
-3. Move the contents of the `NewsItem` widget from `menu.dart` into the `widgets/news_card.dart` file.
+3. Move the contents of the `ItemCard` widget from `menu.dart` into the `widgets/news_card.dart` file.
 
 4. Make sure to import `newslist_form.dart` in the `news_card.dart` file and import `news_card.dart` in the `menu.dart` file.
 

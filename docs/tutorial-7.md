@@ -589,7 +589,7 @@ Jangan lupa kerjakan `TODO` yang masih ada **sebelum mengumpulkan tutorial** (tu
 
 Sampai sini, kita sudah berhasil membuat suatu *drawer* yang dapat menjalankan fitur navigasi ke halaman lain pada aplikasi, serta suatu halaman *form*. Pada tutorial sebelumnya, kita juga sudah berhasil membuat tiga *button widget* yang dapat melakukan *action* tertentu saat ia ditekan. Sekarang, kita akan menambahkan fitur navigasi pada tombol tersebut sehingga saat ditekan, pengguna akan ditampilkan halaman lain.
 
-1. Pada _widget_ `NewsItem` pada berkas `menu.dart` yang sudah dibuat pada tutorial sebelumnya, akan dibuat agar agar kode yang terletak pada atribut `onTap` dari `InkWell` dapat melakukan navigasi ke *route* lain (tambahkan kode tambahan di bawah kode `ScaffoldMessenger` yang menampilkan *snackbar*).
+1. Pada _widget_ `ItemCard` pada berkas `menu.dart` yang sudah dibuat pada tutorial sebelumnya, akan dibuat agar agar kode yang terletak pada atribut `onTap` dari `InkWell` dapat melakukan navigasi ke *route* lain (tambahkan kode tambahan di bawah kode `ScaffoldMessenger` yang menampilkan *snackbar*).
 
     ```dart
     ...
@@ -632,7 +632,7 @@ Setelah membuat halaman `newslist_form.dart`, halaman kita sudah semakin banyak.
 
 2. Buatlah berkas baru dengan nama `news_card.dart` pada direktori `widgets`.
 
-3. Pindahkan isi widget `NewsItem` pada `menu.dart` ke berkas `widgets/news_card.dart`.
+3. Pindahkan isi widget `ItemCard` pada `menu.dart` ke berkas `widgets/news_card.dart`.
 
 4. Pastikan untuk mengimpor halaman `newslist_form.dart` pada berkas `news_card.dart` dan import halaman `news_card.dart` pada berkas `menu.dart`.
 
