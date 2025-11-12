@@ -1440,7 +1440,7 @@ path('create-flutter/', create_news_flutter, name='create_news_flutter'),
 
 After the Django side is complete, next we move to the form on the Flutter side. The following steps will be performed on the **Flutter** project code.
 
-1. Add the following imports at the top of the `newsentry_form.dart` file.
+1. Add the following imports at the top of the `newslist_form.dart` file.
 
 ```dart
 import 'dart:convert';
@@ -1449,7 +1449,7 @@ import 'package:pbp_django_auth/pbp_django_auth.dart';
 import 'package:football_news/screens/menu.dart';
 ```
 
-2. Connect the `newsentry_form.dart` page with `CookieRequest` by adding the following line of code inside the `build` method.
+2. Connect the `newslist_form.dart` page with `CookieRequest` by adding the following line of code inside the `build` method.
 
 ```dart
 @override

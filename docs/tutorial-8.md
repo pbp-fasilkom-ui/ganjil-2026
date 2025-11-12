@@ -1435,7 +1435,7 @@ path('create-flutter/', create_news_flutter, name='create_news_flutter'),
 
 Setelah sisi Django selesai, selanjutnya kita beralih ke formulir di sisi Flutter. Langkah-langkah berikut akan dilakukan pada kode proyek **Flutter**.
 
-1. Tambahkan import berikut pada bagian atas file `newsentry_form.dart`.
+1. Tambahkan import berikut pada bagian atas file `newslist_form.dart`.
 
 ```dart
 import 'dart:convert';
@@ -1444,7 +1444,7 @@ import 'package:pbp_django_auth/pbp_django_auth.dart';
 import 'package:football_news/screens/menu.dart';
 ```
 
-2. Hubungkan halaman `newsentry_form.dart` dengan `CookieRequest` dengan menambahkan baris kode berikut di dalam method `build`.
+2. Hubungkan halaman `newslist_form.dart` dengan `CookieRequest` dengan menambahkan baris kode berikut di dalam method `build`.
 
 ```dart
 @override
