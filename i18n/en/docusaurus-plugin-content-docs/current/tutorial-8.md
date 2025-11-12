@@ -260,6 +260,9 @@ Remember the "..." sign means your existing code, so just add what is requested.
 8. Create a view method for login in `authentication/views.py`.
 
     ```python
+    from django.contrib.auth import authenticate, login as auth_login
+    ...
+    import 
     @csrf_exempt
     def login(request):
         username = request.POST['username']

@@ -258,6 +258,8 @@ Ingat tanda "..." artinya adalah kode kamu yang sudah ada saat ini, jadi cukup t
 8. Buatlah sebuah metode _view_ untuk login pada `authentication/views.py`.
 
     ```python
+    from django.contrib.auth import authenticate, login as auth_login
+    ...
     @csrf_exempt
     def login(request):
         username = request.POST['username']
