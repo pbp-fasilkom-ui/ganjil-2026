@@ -1,3 +1,8 @@
+---
+sidebar_label: Panduan Tugas Kelompok
+sidebar_position: 2
+Path: assignments/group/midterm-guide
+---
 # Panduan Tugas Kelompok
 Untuk mempermudah kalian dalam mengerjakan tugas kelompok, tim asdos telah menyiapkan panduan lengkap yang bisa jadi pegangan selama proses development. Panduan ini disusun berdasarkan pengalaman dan *best practice* untuk kerja sama tim yang umum digunakan dalam pengembangan *software*.
 

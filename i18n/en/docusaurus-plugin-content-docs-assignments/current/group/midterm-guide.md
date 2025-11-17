@@ -1,3 +1,9 @@
+---
+sidebar_label: Midterm Project Guide
+sidebar_position: 2
+Path: assignments/group/midterm-guide
+---
+
 # Group Project Guide
 
 To help you complete your group project, the teaching assistant team has prepared a comprehensive guide that can serve as a reference throughout the development process. This guide is compiled based on experience and best practices for team collaboration commonly used in software development.
