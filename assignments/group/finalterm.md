@@ -91,7 +91,6 @@ Pastikan kalian juga melihat komponen penilaian di [BRP](https://docs.google.com
                 <li>Modul yang dibuat oleh setiap anggota kelompok sudah terintegrasi dalam satu kesatuan aplikasi</li>
                 <li>Fungsionalitas sesuai dengan rancangan desain</li>
                 <li>Pengolahan data JSON yang menjadi respons dari web service Django dan menampilkan hasilnya di aplikasi mobile</li>
-                <li>Data yang </li>
                 <li>Menambahkan tautan APK ke README.md</li>
             </ul>
             <p><b>BONUS: Membuat video promosi aplikasi dan website kelompok (cukup dalam 1 video)</b></p>
